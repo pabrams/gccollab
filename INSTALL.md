@@ -18,7 +18,7 @@ When prompted, enter a root password for MySQL.
     chmod 700 gccollab_data
     sudo chown www-data:www-data gccollab_data
 
-#### Create link to gccollab in /var/www/html folder
+#### Create link to gccollab in /var/www/html folder (don't forget to edit /path/to/)
     cd /var/www/html/
     sudo ln -s /path/to/gccollab gccollab
 
